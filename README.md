@@ -1,8 +1,6 @@
 ### /home/baykovr
 
-Welcome! This page is still under construction.
-
-Thanks
+![Metrics](/github-metrics.svg)
 
 <!--
 **baykovr/baykovr** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
