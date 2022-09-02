@@ -1,7 +1,11 @@
-### /home/baykovr
 
-![Metrics](/github-metrics.svg)
-
+<a href="https://github.com/baykovr">
+  <img align="center" width="49%" src="./github-metrics.svg" />
+</a>
+<br/>
+<a href="https://github.com/baykovr">
+  <img align="center" width="49%" src="./metrics.plugin.languages.svg" />
+</a>
 <!--
 **baykovr/baykovr** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
