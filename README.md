@@ -2,7 +2,6 @@
 <a href="https://github.com/baykovr">
   <img align="center" width="48%" src="./left-pane.svg" />
 </a>
-<br/>
 <a href="https://github.com/baykovr">
   <img align="center" width="48%" src="./right-pane.svg" />
 </a>
