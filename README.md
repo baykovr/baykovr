@@ -1,6 +1,10 @@
 
 <a href="https://github.com/baykovr">
-  <img align="center" width="60%" src="./github-metrics.svg" />
+  <img align="center" width="49%" src="./left-pane.svg" />
+</a>
+<br/>
+<a href="https://github.com/baykovr">
+  <img align="center" width="49%" src="./right-pane.svg" />
 </a>
 <!--
 **baykovr/baykovr** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
