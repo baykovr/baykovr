@@ -1,34 +1,34 @@
-name: Metrics
-on:
-  # Schedule daily updates
-  schedule: [{cron: "0 0 * * *"}]
-  # (optional) Run workflow manually
-  workflow_dispatch:
-  # (optional) Run workflow when pushing on master/main
-  push: {branches: ["master", "main"]}
-jobs:
-  left-pane:
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
-    steps:
-      - uses: lowlighter/metrics@latest
-        with:
-          filename: left-pane.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-  right-pane:
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
-    steps:
-      - uses: lowlighter/metrics@latest
-        with:
-          filename: right-pane.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          base: ""
-          plugin_languages: yes
-          plugin_languages_indepth: yes
-          plugin_languages_ignored: html, css, javascript
-          plugin_topics: yes
-          plugin_topics_mode: icons
-          plugin_topic_limit: 0
+#name: Metrics
+#on:
+#  # Schedule daily updates
+#  schedule: [{cron: "0 0 * * *"}]
+#  # (optional) Run workflow manually
+#  workflow_dispatch:
+#  # (optional) Run workflow when pushing on master/main
+#  push: {branches: ["master", "main"]}
+#jobs:
+#  left-pane:
+#    runs-on: ubuntu-latest
+#    permissions:
+#      contents: write
+#    steps:
+#      - uses: lowlighter/metrics@latest
+#        with:
+#          filename: left-pane.svg
+#          token: ${{ secrets.METRICS_TOKEN }}
+#  right-pane:
+#    runs-on: ubuntu-latest
+#    permissions:
+#      contents: write
+#    steps:
+#      - uses: lowlighter/metrics@latest
+#        with:
+#          filename: right-pane.svg
+#          token: ${{ secrets.METRICS_TOKEN }}
+#          base: ""
+#          plugin_languages: yes
+#          plugin_languages_indepth: yes
+#          plugin_languages_ignored: html, css, javascript
+#          plugin_topics: yes
+#          plugin_topics_mode: icons
+#          plugin_topic_limit: 0
